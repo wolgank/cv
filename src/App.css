@@ -1,0 +1,152 @@
+/* Estilos globales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Color de fondo suave */
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Encabezado */
+.header {
+  background-image: url('/public/jsImage.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 20px;
+}
+
+.header-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header-text h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: white;
+}
+
+.header-text p {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+/* Sección de Conocimiento */
+.knowledge, .skills, .education, .languages, .projects, .contact {
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos de secciones */
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Listas y items */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Habilidades */
+.skill-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  margin: 15px;
+  width: 30%;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f4f4f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-item h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+/* Proyectos */
+.project-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  margin: 15px;
+  width: 40%;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.project-item h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+/* Contacto */
+.contact p {
+  font-size: 1.1rem;
+}
+
+.contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Sección de idiomas */
+.languages ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.languages li {
+  font-size: 1.2rem;
+  margin: 5px 20px;
+}
+
+/* Ajustes de márgenes */
+section {
+  margin-bottom: 40px;
+}
